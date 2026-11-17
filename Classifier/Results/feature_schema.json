@@ -1,0 +1,347 @@
+{
+  "LeadTime": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 274.0
+  },
+  "ArrivalDateYear": {
+    "type": "numeric",
+    "min": 2015.0,
+    "max": 2017.0
+  },
+  "ArrivalDateMonth": {
+    "type": "categorical",
+    "options": [
+      "April",
+      "August",
+      "December",
+      "February",
+      "January",
+      "July",
+      "June",
+      "March",
+      "May",
+      "November",
+      "October",
+      "September"
+    ]
+  },
+  "ArrivalDateWeekNumber": {
+    "type": "numeric",
+    "min": 1.0,
+    "max": 53.0
+  },
+  "ArrivalDateDayOfMonth": {
+    "type": "numeric",
+    "min": 1.0,
+    "max": 31.0
+  },
+  "StaysInWeekendNights": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 4.0
+  },
+  "StaysInWeekNights": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 6.0
+  },
+  "Adults": {
+    "type": "numeric",
+    "min": 1.0,
+    "max": 4.0
+  },
+  "Children": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 3.0
+  },
+  "Babies": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 2.0
+  },
+  "Meal": {
+    "type": "categorical",
+    "options": [
+      "BB",
+      "FB",
+      "HB",
+      "SC"
+    ]
+  },
+  "Country": {
+    "type": "categorical",
+    "options": [
+      "ABW",
+      "AGO",
+      "AIA",
+      "ALB",
+      "AND",
+      "ARE",
+      "ARG",
+      "ARM",
+      "ASM",
+      "ATA",
+      "ATF",
+      "AUS",
+      "AUT",
+      "AZE",
+      "BEL",
+      "BEN",
+      "BFA",
+      "BGD",
+      "BGR",
+      "BHR",
+      "BIH",
+      "BLR",
+      "BOL",
+      "BRA",
+      "BRB",
+      "CAF",
+      "CHE",
+      "CHL",
+      "CHN",
+      "CIV",
+      "CMR",
+      "CN",
+      "COL",
+      "COM",
+      "CPV",
+      "CRI",
+      "CUB",
+      "CYP",
+      "CZE",
+      "DEU",
+      "DMA",
+      "DNK",
+      "DOM",
+      "DZA",
+      "ECU",
+      "EGY",
+      "ESP",
+      "EST",
+      "ETH",
+      "FIN",
+      "FRA",
+      "FRO",
+      "GAB",
+      "GBR",
+      "GEO",
+      "GGY",
+      "GHA",
+      "GIB",
+      "GLP",
+      "GNB",
+      "GRC",
+      "GTM",
+      "GUY",
+      "HKG",
+      "HND",
+      "HRV",
+      "HUN",
+      "IDN",
+      "IMN",
+      "IND",
+      "IRL",
+      "IRN",
+      "IRQ",
+      "ISL",
+      "ISR",
+      "ITA",
+      "JAM",
+      "JEY",
+      "JOR",
+      "JPN",
+      "KAZ",
+      "KEN",
+      "KHM",
+      "KIR",
+      "KNA",
+      "KOR",
+      "KWT",
+      "LAO",
+      "LBN",
+      "LBY",
+      "LCA",
+      "LIE",
+      "LKA",
+      "LTU",
+      "LUX",
+      "LVA",
+      "MAC",
+      "MAR",
+      "MCO",
+      "MDV",
+      "MEX",
+      "MKD",
+      "MLI",
+      "MLT",
+      "MMR",
+      "MNE",
+      "MOZ",
+      "MRT",
+      "MUS",
+      "MYS",
+      "MYT",
+      "NAM",
+      "NCL",
+      "NGA",
+      "NIC",
+      "NLD",
+      "NOR",
+      "NZL",
+      "OMN",
+      "PAK",
+      "PAN",
+      "PER",
+      "PHL",
+      "POL",
+      "PRI",
+      "PRT",
+      "PRY",
+      "PYF",
+      "QAT",
+      "ROU",
+      "RUS",
+      "RWA",
+      "SAU",
+      "SDN",
+      "SEN",
+      "SGP",
+      "SLE",
+      "SLV",
+      "SRB",
+      "STP",
+      "SUR",
+      "SVK",
+      "SVN",
+      "SWE",
+      "SYC",
+      "SYR",
+      "TGO",
+      "THA",
+      "TJK",
+      "TMP",
+      "TUN",
+      "TUR",
+      "TWN",
+      "TZA",
+      "UGA",
+      "UKR",
+      "UMI",
+      "URY",
+      "USA",
+      "UZB",
+      "VEN",
+      "VGB",
+      "VNM",
+      "ZAF",
+      "ZMB",
+      "ZWE"
+    ]
+  },
+  "MarketSegment": {
+    "type": "categorical",
+    "options": [
+      "Aviation",
+      "Complementary",
+      "Corporate",
+      "Direct",
+      "Groups",
+      "Offline TA/TO",
+      "Online TA"
+    ]
+  },
+  "DistributionChannel": {
+    "type": "categorical",
+    "options": [
+      "Corporate",
+      "Direct",
+      "GDS",
+      "TA/TO"
+    ]
+  },
+  "IsRepeatedGuest": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 1.0
+  },
+  "PreviousCancellations": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 21.0
+  },
+  "PreviousBookingsNotCanceled": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 72.0
+  },
+  "ReservedRoomType": {
+    "type": "categorical",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ]
+  },
+  "AssignedRoomType": {
+    "type": "categorical",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "K"
+    ]
+  },
+  "BookingChanges": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 17.0
+  },
+  "DepositType": {
+    "type": "categorical",
+    "options": [
+      "No Deposit",
+      "Non Refund",
+      "Refundable"
+    ]
+  },
+  "DaysInWaitingList": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 224.0
+  },
+  "CustomerType": {
+    "type": "categorical",
+    "options": [
+      "Contract",
+      "Group",
+      "Transient",
+      "Transient-Party"
+    ]
+  },
+  "ADR": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 352.5
+  },
+  "TotalOfSpecialRequests": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 5.0
+  },
+  "HasCompany": {
+    "type": "numeric",
+    "min": 0.0,
+    "max": 1.0
+  }
+}

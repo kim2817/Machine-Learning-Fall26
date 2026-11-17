@@ -1,0 +1,42 @@
+{
+  "search_method": "RandomizedSearchCV (n_iter=40, 5-fold StratifiedKFold)",
+  "optimization_metric": "f1",
+  "search_space": {
+    "clf__hidden_layer_sizes": [
+      "(64,)",
+      "(128,)",
+      "(64, 32)",
+      "(128, 64)"
+    ],
+    "clf__alpha": [
+      "0.0001",
+      "0.001",
+      "0.01"
+    ],
+    "clf__learning_rate_init": [
+      "0.0001",
+      "0.0003",
+      "0.001"
+    ],
+    "clf__batch_size": [
+      "64",
+      "256"
+    ],
+    "clf__activation": [
+      "relu",
+      "tanh"
+    ]
+  },
+  "best_params": {
+    "learning_rate_init": 0.001,
+    "hidden_layer_sizes": [
+      128
+    ],
+    "batch_size": 64,
+    "alpha": 0.01,
+    "activation": "tanh"
+  },
+  "best_cv_f1": 0.6460374069521626,
+  "pca_k": 33,
+  "best_threshold": 0.323233660595489
+}
