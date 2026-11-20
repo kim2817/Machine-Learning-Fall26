@@ -1,0 +1,58 @@
+{
+  "search_method": "GridSearchCV (5-fold StratifiedKFold)",
+  "optimization_metric": "f1",
+  "random_state": 42,
+  "models": {
+    "LR (Baseline)": {
+      "params": {
+        "C": 1.0,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 3000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 42,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    "LR (Tuned)": {
+      "best_params": {
+        "clf__C": 0.1,
+        "clf__class_weight": "balanced",
+        "clf__l1_ratio": 0.0,
+        "clf__solver": "lbfgs"
+      },
+      "best_cv_f1": 0.6077498269247913
+    },
+    "PCA + LR (Baseline)": {
+      "pca_n_components": 0.95
+    },
+    "PCA + LR (Tuned)": {
+      "best_params": {
+        "clf__C": 10.0,
+        "clf__class_weight": "balanced",
+        "pca__n_components": 0.95
+      },
+      "best_cv_f1": 0.5919120238267006
+    },
+    "LDA + LR (Baseline)": {
+      "lda_n_components": 1,
+      "lda_solver": "svd"
+    },
+    "LDA + LR (Tuned)": {
+      "best_params": {
+        "clf__C": 0.01,
+        "clf__class_weight": "balanced",
+        "lda__shrinkage": null,
+        "lda__solver": "svd"
+      },
+      "best_cv_f1": 0.6014961306021466
+    }
+  }
+}
